@@ -9,7 +9,7 @@
 - Tutorial for this project was from youtube channel the Net Ninja.<br/>
 [▶️ Tutorial video from the Net Ninja](https://www.youtube.com/watch?v=bxmDnn7lrnk&list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw)
 
-![preview img](/preview.jpg)
+![preview img](preview.jpg)
 
 
 
