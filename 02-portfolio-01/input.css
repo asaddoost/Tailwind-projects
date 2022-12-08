@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+/* ======scroll bar======= */
+::-webkit-scrollbar {
+    background:#878ECD;
+     width: .6rem;
+     border-radius: .5rem;
+     cursor: pointer;
+     
+}
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(170deg,
+    #B9BBDF 30%,
+     #878ECD 160%);
+     border-radius: .4rem;
+     
+}
+::-webkit-scrollbar-thumb:hover {
+    background:linear-gradient(170deg,
+    var(--first-color) 20%,
+     #878ECD 150%); 
+}
+::selection {
+    background-color: #B9BBDF;
+}
+
+.card {
+    @apply w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110 cursor-pointer
+}
+
+.skill {
+    @apply w-full md:w-4/12 shadow-lg rounded-lg p-5 my-3 md:my-10 flex  flex-col gap-3 
+    cursor-pointer hover:shadow-xl bg-gray-100 dark:bg-slate-800
+}
+
+
